@@ -16,8 +16,7 @@ function result() {
     let ergebnis = document.getElementById("number").value;
     console.log(ergebnis)
     let laenge = words.filter(word => word.length == ergebnis);
-    let xy = document.getElementById("result")
-    xy.innerHTML = laenge
+    document.getElementById("result").innerHTML = laenge;
       //wir vergleichen auf Gleicheit, filter() erstellt ein neues Array mit allen Elementen, die den von der bereitgestellten Funktion implementierten Test bestehen. EIn = ist  eine Zuweisung, == ist vergleichen 
 }
 
